@@ -1,0 +1,154 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    position: sticky;
+    height: 10%;
+    width: 100%;
+}
+
+
+#logo {
+    margin: 12px;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    background-color: darkred;
+}
+
+.menu {
+    display: flex;
+    font-size: 1rem;
+    list-style: none;
+    align-items: center;
+}
+
+li a {
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin: 1rem;
+    padding: 0.4rem;
+    background-color: white;
+    display: inline;
+    justify-content: space-between;
+    border-radius: 10px;
+
+
+}
+
+li :hover {
+    background-color: rgb(158, 157, 154);
+    text-decoration: underline;
+}
+
+#btn1 {
+    width: 5rem;
+    color: white;
+    background-color: rgb(74, 28, 160);
+    margin: 1rem;
+    padding: 0.4rem;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+
+}
+#btn1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#btn2 {
+    display: inline;
+    color: white;
+    background-color: rgb(43, 139, 48);
+    width: 5rem;
+    margin: 1rem;
+    padding: 0.4rem;
+    position: absolute;
+    top: 0;
+    right: 8rem;
+}
+#btn2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.starting {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 100px;
+}
+
+#welcome {
+    font-size: 10%;
+}
+
+#quotes {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem
+}
+
+.intro::before {
+    content: "";
+    position: absolute;
+    background: url("https://cdn.pixabay.com/photo/2017/06/06/22/37/italian-cuisine-2378729_640.jpg") no-repeat center center/cover;
+    height: 70vh;
+    width: 100%;
+    z-index: -1;
+
+}
+
+#welcome {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: rgb(109, 4, 11);
+    font-style: italic;
+}
+
+.list1 {
+    color: rgb(0, 0, 0);
+    list-style: disc;
+    font-size: 2rem;
+    list-style: square;
+    font-weight: 900;
+    font-size: larger;
+}
+/*.list1::before{
+    content: '';
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
+
+    
+}*/
+
+.order {
+    margin: 1rem;
+    padding: .9rem;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: rgb(177, 7, 148);
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: larger;
+    cursor: pointer;
+}
+.foot{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 20vh;
+    width: 100%;
+}
