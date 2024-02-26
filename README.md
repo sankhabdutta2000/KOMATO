@@ -1,2 +1,2 @@
 # A food delivery website
-[KOMATO](https://github.com/sankhabdutta2000/KOMATO.git.io)
+[KOMATO](https://sankhabdutta2000.github.io/KOMATO/)
